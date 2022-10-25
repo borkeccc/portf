@@ -1,0 +1,262 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+body {
+  overflow-x: hidden;
+  cursor: default;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 120px;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1,
+h2,
+h3,
+blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+  border-radius: 10px;
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+  border-radius: 10px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: white;
+  background-color: rgba(15, 15, 15, 0.95);
+
+  display: inline;
+  line-height: 1;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
+
+#last {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+
+#divv {
+  font-size: 4rem;
+  display: inline;
+  transition: 0.5s;
+}
+
+#divv:hover {
+  font-size: 5rem;
+}
+
+#first {
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+#sect {
+  font-size: 2rem;
+}
+
+#sectt {
+  font-size: 1.5rem;
+}
+
+.light {
+  width: 20rem;
+}
+
+.light p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.light h3 {
+  text-align: center;
+}
+
+.light h2 {
+  text-align: center;
+}
+
+#sectt {
+  width: 40rem;
+}
+
+.divvv {
+  font-size: 2rem;
+  display: inline;
+  transition: 0.5s;
+}
+
+.divvv:hover {
+  font-size: 2.5rem;
+}
+
+#div1 {
+  background-color: rgba(15, 15, 15, 0.95);
+
+}
+
+#div2 {
+  background-color: rgba(15, 15, 15, 0.95);
+
+}
+
+#div3 {
+  background-color: rgba(15, 15, 15, 0.95);
+
+}
+
+#div4 {
+  background-color: rgba(15, 15, 15, 0.95);
+
+}
+
+#div5 {
+  background-color: rgba(15, 15, 15, 0.95);
+
+}
+
+#div6 {
+  background-color: rgba(15, 15, 15, 0.95);
+
+}
+
+#div7 {
+  background-color: rgba(15, 15, 15, 0.95);
+
+}
+
+#div1:hover {
+  background-color: rgba(240, 219, 79, 0.95);
+
+}
+
+#div2:hover {
+  background-color: rgba(41, 101, 241, 0.95);
+
+}
+
+#div3:hover {
+  background-color: rgba(240, 101, 41, 0.95);
+
+}
+
+#div4:hover {
+  background-color: rgba(137, 147, 190, 0.95);
+
+}
+
+#div5:hover {
+  background-color: rgba(133, 133, 133, 0.95);
+
+}
+
+#div6:hover {
+  background-color: rgba(77, 179, 61, 0.95);
+
+}
+
+#div7:hover {
+  background-color: rgba(192, 43, 125, 0.95);
+
+}
+
+.container {
+  max-height: 200px;
+
+  width: 50%;
+
+  overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+  width: 15px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #4A4A4A;
+}
+
+.content {
+  height: 800px;
+}
+
+.container-dark {
+  background: #212121;
+}
+
+.container-dark:hover::-webkit-scrollbar-thumb {
+  background: #4A4A4A;
+}
+
+.container-light {
+  background: #fff;
+}
+
+.container-light:hover::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+}
